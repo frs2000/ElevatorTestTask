@@ -12,6 +12,6 @@ public class Main {
         elevator.addPerson(person2); 
         elevator.addPerson(person3);
     
-        elevator.start();
+    //    elevator.start();
     }
 }
