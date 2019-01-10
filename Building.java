@@ -1,4 +1,4 @@
-package ElTestTask2;
+package ElevatorTestTask;
 
 import java.util.Scanner;
 import java.util.HashSet;
@@ -102,18 +102,3 @@ public class Building {
 
 
 
-
-//        for (int i = 0; i < numberOfPiole; i++) {
-//            int a = random.nextInt(numberOfFloors) + 1;
-////                   System.out.println("a = "+a);
-//            ExternaPanel tempExternPanel = externPan[(a-1)] ;
-////                    System.out.println("externPan[a-1] = "+ externPan[(a-1)]);
-////                    System.out.println("tempExternPanel = "+ tempExternPanel);
-//            tempExternPanel.callTheElevator(a); 
-//            int b = random.nextInt(numberOfFloors) + 1;
-////                    System.out.println("tempExternPanel.getLevelOfFlorCallBatton() = "+tempExternPanel.getLevelOfFlorCallBatton()); //**************************
-//            person = new Person(tempExternPanel.getLevelOfFlorCallBatton(), b);
-////                    System.out.println("tempExternPanel.getLevelOfFlorCallBatton() = "+tempExternPanel.getLevelOfFlorCallBatton()); //**************************
-//            elevator.addPerson(person);
-//        }
-//    }
