@@ -7,7 +7,8 @@ public class Person {
     private boolean doYouNeedElevator ; // false = no or true = yes
     
     public Person(int currentFloor, int desiredFloor  ){
-        if (currentFloor >0 && currentFloor<5 && desiredFloor >0 && desiredFloor <5){
+        if (currentFloor >0 && currentFloor<= Building.numberOfFloors && 
+                desiredFloor >0 && desiredFloor <= Building.numberOfFloors){
         this.currentFloor = currentFloor ;
         this.desiredFloor = desiredFloor;
         doYouNeedElevator = true ;
@@ -40,9 +41,5 @@ public class Person {
     
     public boolean getDoYouNeedElevator(){
         return doYouNeedElevator ;
-    }
-    
-   
-    
-  
+    }  
 }
