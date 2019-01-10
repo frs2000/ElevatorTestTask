@@ -93,10 +93,11 @@ public class Building {
         externPan = new ExternaPanel[numberOfFloors] ;
         for (int i = 0 ; i <numberOfFloors ; i++){
             externPanel = new ExternaPanel();
-            externPan[i] = externPanel ;
+            externPan[i] = externPanel ; 
         }
     }
 }
+
 
 
 
