@@ -1,4 +1,4 @@
-package ElTestTask2;
+package ElevatorTestTask;
 
 public class ExternaPanel {
 
